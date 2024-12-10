@@ -145,12 +145,6 @@
     cursor: pointer;
 }
 
-.icon-button:active {
-    background-color: rgba(0, 0, 0, 0.1);
-    /* 살짝 어두워짐 */
-    border-radius: 50%;
-}
-
 .card-text {
     width: 945px;
     position: relative;
@@ -337,6 +331,12 @@ ul {
     /* 마우스를 올렸을 때 배경색 */
     border-radius: 5px;
     /* 둥근 모서리 */
+}
+
+/* 클릭된 상태의 스타일 */
+.nav_list a.active {
+    background-color: white;
+    border-radius: 5px;
 }
 
 .frame-parent {
