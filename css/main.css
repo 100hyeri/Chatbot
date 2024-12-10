@@ -3,6 +3,7 @@
     line-height: 100%;
     font-weight: 300;
 }
+
 .wrapper {
     width: 241px;
     border-radius: 10px 10px 10px 0px;
@@ -15,11 +16,13 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
 .emoji {
     position: relative;
     width: 60px;
     height: 60px;
 }
+
 .am-600 {
     width: 162px;
     position: relative;
@@ -31,6 +34,7 @@
     height: 32px;
     flex-shrink: 0;
 }
+
 .frame-div {
     position: absolute;
     top: 49px;
@@ -41,7 +45,8 @@
     justify-content: flex-start;
     gap: 19px;
 }
-.div2 {
+
+.talk-1_txt {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -53,11 +58,13 @@
     width: 1346px;
     height: 45px;
 }
-.frame-container {
+
+.talk-1 {
     width: 1346px;
     position: relative;
     height: 117px;
 }
+
 .image-icon {
     width: 269px;
     height: 160px;
@@ -66,6 +73,7 @@
     object-fit: cover;
     min-width: 160px;
 }
+
 .journey {
     width: 259px;
     position: relative;
@@ -76,6 +84,7 @@
     height: 58px;
     flex-shrink: 0;
 }
+
 .steam-appid-638230 {
     align-self: stretch;
     position: relative;
@@ -83,6 +92,7 @@
     line-height: 140%;
     color: #afafaf;
 }
+
 .journey-parent {
     position: absolute;
     top: 0px;
@@ -94,12 +104,14 @@
     justify-content: flex-start;
     gap: 1px;
 }
+
 .label-text {
     position: relative;
     letter-spacing: 0.1px;
     line-height: 20px;
     font-weight: 500;
 }
+
 .state-layer {
     height: 32px;
     display: flex;
@@ -109,6 +121,7 @@
     padding: 6px 16px;
     box-sizing: border-box;
 }
+
 .assistive-chip {
     position: absolute;
     top: 121px;
@@ -126,6 +139,7 @@
     color: #1d1b20;
     font-family: Roboto;
 }
+
 .star-icon {
     width: 20px;
     position: relative;
@@ -133,6 +147,7 @@
     overflow: hidden;
     flex-shrink: 0;
 }
+
 .icon-button {
     position: absolute;
     top: 0px;
@@ -147,6 +162,7 @@
     justify-content: center;
     padding: 12px;
 }
+
 .text {
     width: 945px;
     position: relative;
@@ -154,6 +170,7 @@
     overflow: hidden;
     flex-shrink: 0;
 }
+
 .card {
     align-self: stretch;
     border-radius: 10px;
@@ -166,6 +183,7 @@
     padding: 20px 24px;
     box-sizing: border-box;
 }
+
 .image-icon1 {
     width: 338px;
     position: relative;
@@ -174,6 +192,7 @@
     flex-shrink: 0;
     object-fit: cover;
 }
+
 .image {
     width: 269px;
     height: 160px;
@@ -189,6 +208,7 @@
     background-position: top;
     min-width: 160px;
 }
+
 .card-parent {
     align-self: stretch;
     height: 465px;
@@ -204,12 +224,14 @@
     font-size: 24px;
     color: #fff;
 }
+
 .frame-child {
     width: 1315px;
     position: relative;
     height: 3px;
     object-fit: contain;
 }
+
 .line-wrapper {
     display: flex;
     flex-direction: row;
@@ -217,6 +239,7 @@
     justify-content: flex-start;
     padding: 10px 0px;
 }
+
 .frame-parent1 {
     display: flex;
     flex-direction: row;
@@ -225,6 +248,7 @@
     padding: 10px 0px 0px;
     gap: 19px;
 }
+
 .frame-group {
     position: absolute;
     top: 190px;
@@ -240,10 +264,14 @@
     box-sizing: border-box;
     gap: 4px;
 }
+
 .b {
     position: relative;
     line-height: 100%;
 }
+
+
+
 .frame {
     display: flex;
     flex-direction: row;
@@ -251,12 +279,14 @@
     justify-content: center;
     padding: 10px;
 }
+
 .frame-item {
     width: 595px;
     position: relative;
     height: 1px;
     object-fit: contain;
 }
+
 .wrapper1 {
     width: 106px;
     display: flex;
@@ -266,6 +296,7 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
 .line-parent {
     align-self: stretch;
     display: flex;
@@ -275,6 +306,7 @@
     gap: 5px;
     font-size: 20px;
 }
+
 .frame-parent2 {
     position: absolute;
     top: 68px;
@@ -289,23 +321,13 @@
     font-size: 32px;
     color: #fff;
 }
-.navigation-pill {
-    border-radius: 8px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
+
+ul {
+    display: flex; /* Flexbox 활성화 */
+    list-style-type: none; /* 기본 리스트 스타일 제거 */
+    justify-content: center; /* 가로로 중앙 정렬 */
 }
-.navigation-pill11 {
-    border-radius: 8px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-}
+
 .navigation-pill-list {
     position: absolute;
     top: 0px;
@@ -322,6 +344,25 @@
     font-size: 16px;
     color: #1e1e1e;
 }
+
+.nav_list {
+    position: relative;
+    line-height: 100%;
+    margin: 0 3px; /* 각 항목 사이의 간격 */
+}
+
+.nav_list a {
+    text-decoration: none; /* 링크 밑줄 제거 */
+    color: black; 
+    padding: 7px 10px; /* 내부 여백 */
+}
+
+/* 호버 효과 */
+.nav_list a:hover {
+    background-color: white; /* 마우스를 올렸을 때 배경색 */
+    border-radius: 5px; /* 둥근 모서리 */
+  }
+
 .frame-parent {
     position: absolute;
     top: 98px;
@@ -330,67 +371,44 @@
     width: 1440px;
     height: 926px;
 }
-.image-3-icon {
-    width: 68px;
+
+.logo-img {
+    width: 58px;
     position: relative;
-    height: 68px;
+    height: 58px;
     object-fit: cover;
 }
-.image-3-wrapper {
+
+.logo-div {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     padding: 10px;
+    width: 58px;
+    height: 58px;
+    margin-right: 10px;
+    margin-right: 400px;
 }
+
 .icon {
     width: 24px;
     position: relative;
     height: 24px;
 }
-.state-layer3 {
+
+.search_btn {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 8px;
+    padding: 12px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
-.container1 {
-    border-radius: 100px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.leading-icon {
-    width: 48px;
-    height: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.supporting-text {
-    position: relative;
-    letter-spacing: 0.5px;
-    line-height: 24px;
-}
-.content {
-    align-self: stretch;
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-.trailing-elements {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-}
-.state-layer2 {
+
+.search-txt_bar {
     align-self: stretch;
     flex: 1;
     display: flex;
@@ -399,14 +417,20 @@
     justify-content: flex-start;
     padding: 4px;
     gap: 4px;
+    border: none;
+    padding-left: 15px;
+    background-color: transparent; /* 배경을 투명으로 설정 */
+    outline: none;  /* 포커스 시 윤곽선 제거 */
+    color: white; /* 글자 색상 */
 }
+
 .search-bar {
-    width: 584px;
+    width: 530px;
     border-radius: 28px;
     background-color: rgba(236, 230, 240, 0);
     border: 2px solid #636363;
     box-sizing: border-box;
-    height: 58px;
+    height: 40px;
     overflow: hidden;
     flex-shrink: 0;
     display: flex;
@@ -415,28 +439,35 @@
     justify-content: flex-start;
     min-width: 360px;
     max-width: 720px;
+    margin-right: 250px;
 }
-.wishlist {
+
+#wishlist {
     flex: 1;
     position: relative;
     display: flex;
     align-items: center;
     height: 56px;
+    font-size: medium;
 }
+
 .wishlist-wrapper {
-    width: 123px;
+    width: 103px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.login {
+
+#login {
     flex: 1;
     position: relative;
     display: flex;
     align-items: center;
     height: 54px;
+    font-size: medium;
 }
+
 .login-wrapper {
     width: 94px;
     display: flex;
@@ -444,7 +475,8 @@
     align-items: center;
     justify-content: center;
 }
-.frame-parent4 {
+
+.top-bar_label {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -454,33 +486,44 @@
     color: #fff;
     font-family: Inter;
 }
-.frame-parent3 {
+
+.top-bar {
     position: absolute;
     top: 0px;
     left: 0px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: #383838;
-    width: 1440px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     padding: 5px 20px;
     box-sizing: border-box;
-    gap: 243px;
     font-size: 16px;
     color: #49454f;
     font-family: Roboto;
+    z-index: 1;
+    height: 70px;
 }
+
+
+
+
 .div {
-    width: 100%;
     position: relative;
-    background-color: #fff;
+    background-color: #565656;
     height: 1024px;
     overflow: hidden;
     text-align: left;
     font-size: 20px;
     color: #000;
     font-family: Inter;
+    transform: scale(0.9);
+    /* 크기를 축소 */
+    transform-origin: top center;
+    /* 축소 기준점을 왼쪽 위로 설정 */
+    width: 200%;
+    /* 축소로 인해 컨텐츠가 잘리는 것을 방지 */
+    margin-left: 50px;
 }
-
