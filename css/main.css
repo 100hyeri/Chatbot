@@ -1,10 +1,4 @@
-.div1 {
-    position: relative;
-    line-height: 100%;
-    font-weight: 300;
-}
-
-.wrapper {
+.emotion-txt {
     width: 241px;
     border-radius: 10px 10px 10px 0px;
     background-color: #78ffe4;
@@ -23,7 +17,7 @@
     height: 60px;
 }
 
-.am-600 {
+.time {
     width: 162px;
     position: relative;
     line-height: 100%;
@@ -35,7 +29,7 @@
     flex-shrink: 0;
 }
 
-.frame-div {
+.talk-1-frame-div {
     position: absolute;
     top: 49px;
     left: 0px;
@@ -74,18 +68,7 @@
     min-width: 160px;
 }
 
-.journey {
-    width: 259px;
-    position: relative;
-    letter-spacing: -0.02em;
-    line-height: 120%;
-    font-weight: 600;
-    display: inline-block;
-    height: 58px;
-    flex-shrink: 0;
-}
-
-.steam-appid-638230 {
+.game-info p {
     align-self: stretch;
     position: relative;
     font-size: 16px;
@@ -93,7 +76,7 @@
     color: #afafaf;
 }
 
-.journey-parent {
+.gamme-info {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -105,14 +88,12 @@
     gap: 1px;
 }
 
-.label-text {
-    position: relative;
-    letter-spacing: 0.1px;
-    line-height: 20px;
-    font-weight: 500;
+.game-info h4 {
+    margin-block-end: 0;
+    margin-block-start: 5px;
 }
 
-.state-layer {
+.genre-txt {
     height: 32px;
     display: flex;
     flex-direction: row;
@@ -122,7 +103,7 @@
     box-sizing: border-box;
 }
 
-.assistive-chip {
+.genre-div {
     position: absolute;
     top: 121px;
     left: 0px;
@@ -151,7 +132,7 @@
 .icon-button {
     position: absolute;
     top: 0px;
-    left: 901px;
+    left: 895px;
     border-radius: 32px;
     background-color: #2c2c2c;
     border: 1px solid #2c2c2c;
@@ -161,14 +142,22 @@
     align-items: center;
     justify-content: center;
     padding: 12px;
+    cursor: pointer;
 }
 
-.text {
+.icon-button:active {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* 살짝 어두워짐 */
+    border-radius: 50%;
+}
+
+.card-text {
     width: 945px;
     position: relative;
     height: 164px;
     overflow: hidden;
     flex-shrink: 0;
+    margin-left: 30px;
 }
 
 .card {
@@ -184,30 +173,22 @@
     box-sizing: border-box;
 }
 
-.image-icon1 {
-    width: 338px;
-    position: relative;
-    height: 201px;
-    overflow: hidden;
-    flex-shrink: 0;
-    object-fit: cover;
+.card_click {
+    cursor: pointer;
+    text-decoration: none;
+    /* 링크 스타일 제거 */
+    color: inherit;
+    /* 텍스트 색상 상속 */
+    display: block;
+    /* 블록 요소로 변경 */
 }
 
-.image {
-    width: 269px;
-    height: 160px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url('image.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top;
-    min-width: 160px;
+.card_click:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* 호버 효과 */
 }
+
 
 .card-parent {
     align-self: stretch;
@@ -225,13 +206,6 @@
     color: #fff;
 }
 
-.frame-child {
-    width: 1315px;
-    position: relative;
-    height: 3px;
-    object-fit: contain;
-}
-
 .line-wrapper {
     display: flex;
     flex-direction: row;
@@ -240,7 +214,7 @@
     padding: 10px 0px;
 }
 
-.frame-parent1 {
+.talk-2-div {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -249,7 +223,7 @@
     gap: 19px;
 }
 
-.frame-group {
+.content-div {
     position: absolute;
     top: 190px;
     left: 0px;
@@ -270,24 +244,13 @@
     line-height: 100%;
 }
 
-
-
-.frame {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-}
-
-.frame-item {
+hr {
+    margin: 20px 0;
+    /* 위아래 마진 */
     width: 595px;
-    position: relative;
-    height: 1px;
-    object-fit: contain;
 }
 
-.wrapper1 {
+.date-div {
     width: 106px;
     display: flex;
     flex-direction: row;
@@ -307,7 +270,7 @@
     font-size: 20px;
 }
 
-.frame-parent2 {
+.date-text-div {
     position: absolute;
     top: 68px;
     left: 47px;
@@ -322,10 +285,18 @@
     color: #fff;
 }
 
+.date-text-div h4 {
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
 ul {
-    display: flex; /* Flexbox 활성화 */
-    list-style-type: none; /* 기본 리스트 스타일 제거 */
-    justify-content: center; /* 가로로 중앙 정렬 */
+    display: flex;
+    /* Flexbox 활성화 */
+    list-style-type: none;
+    /* 기본 리스트 스타일 제거 */
+    justify-content: center;
+    /* 가로로 중앙 정렬 */
 }
 
 .navigation-pill-list {
@@ -348,20 +319,25 @@ ul {
 .nav_list {
     position: relative;
     line-height: 100%;
-    margin: 0 3px; /* 각 항목 사이의 간격 */
+    margin: 0 3px;
+    /* 각 항목 사이의 간격 */
 }
 
 .nav_list a {
-    text-decoration: none; /* 링크 밑줄 제거 */
-    color: black; 
-    padding: 7px 10px; /* 내부 여백 */
+    text-decoration: none;
+    /* 링크 밑줄 제거 */
+    color: black;
+    padding: 7px 10px;
+    /* 내부 여백 */
 }
 
 /* 호버 효과 */
 .nav_list a:hover {
-    background-color: white; /* 마우스를 올렸을 때 배경색 */
-    border-radius: 5px; /* 둥근 모서리 */
-  }
+    background-color: white;
+    /* 마우스를 올렸을 때 배경색 */
+    border-radius: 5px;
+    /* 둥근 모서리 */
+}
 
 .frame-parent {
     position: absolute;
@@ -419,9 +395,12 @@ ul {
     gap: 4px;
     border: none;
     padding-left: 15px;
-    background-color: transparent; /* 배경을 투명으로 설정 */
-    outline: none;  /* 포커스 시 윤곽선 제거 */
-    color: white; /* 글자 색상 */
+    background-color: transparent;
+    /* 배경을 투명으로 설정 */
+    outline: none;
+    /* 포커스 시 윤곽선 제거 */
+    color: white;
+    /* 글자 색상 */
 }
 
 .search-bar {
@@ -449,6 +428,7 @@ ul {
     align-items: center;
     height: 56px;
     font-size: medium;
+    cursor: pointer;
 }
 
 .wishlist-wrapper {
@@ -466,6 +446,7 @@ ul {
     align-items: center;
     height: 54px;
     font-size: medium;
+    cursor: pointer;
 }
 
 .login-wrapper {
@@ -507,9 +488,6 @@ ul {
     height: 70px;
 }
 
-
-
-
 .div {
     position: relative;
     background-color: #565656;
@@ -526,4 +504,14 @@ ul {
     width: 200%;
     /* 축소로 인해 컨텐츠가 잘리는 것을 방지 */
     margin-left: 50px;
+}
+
+.dotted-line {
+    border: none;
+    /* 기본 선 제거 */
+    border-top: 2px dashed rgba(167, 167, 167, 1);
+    /* 점선 설정 */
+    margin: 20px 0;
+    /* 상하 간격 */
+    width: 1306px;
 }
