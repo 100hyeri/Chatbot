@@ -175,15 +175,18 @@
     justify-content: flex-start;
     gap: 1px;
 }
-.journey1 {
+.description {
     position: absolute;
     top: 21px;
     left: 269px;
     font-size: 16px;
-    line-height: 140%;
-    display: inline-block;
+    line-height: 130%;
+    display: -webkit-box; /* 플렉스 박스처럼 동작하게 설정 */
     width: 477px;
+    height: 120px;
+    overflow: hidden; /* 넘치는 텍스트를 숨김 */
 }
+
 .label-text {
     position: relative;
     letter-spacing: 0.1px;
