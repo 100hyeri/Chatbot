@@ -147,7 +147,7 @@
     object-fit: cover;
     min-width: 160px;
 }
-.journey {
+.game_name {
     width: 259px;
     position: relative;
     letter-spacing: -0.02em;
@@ -157,7 +157,7 @@
     height: 58px;
     flex-shrink: 0;
 }
-.steam-appid-638230 {
+.steam-appid {
     align-self: stretch;
     position: relative;
     font-size: 16px;
@@ -267,50 +267,13 @@
     align-items: center;
     justify-content: space-between;
 }
-.ori-and-the {
-    width: 259px;
-    position: relative;
-    letter-spacing: -0.02em;
-    line-height: 120%;
-    font-weight: 600;
-    display: inline-block;
-}
 
-.control {
-    align-self: stretch;
-    position: relative;
-    letter-spacing: -0.02em;
-    line-height: 120%;
-    font-weight: 600;
-}
-.card3 {
-    width: 1152px;
-    background-color: #404040;
-    height: 204px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    padding: 20px 24px;
-    box-sizing: border-box;
-    z-index: 0;
-}
-.delete-wrapper1 {
-    width: 130px;
-    background-color: #323232;
-    height: 204px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    box-sizing: border-box;
-    z-index: 1;
-}
+
 .chatbot {
     position: relative;
     font-weight: 600;
 }
+
 .chatbot-wrapper {
     width: 283px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -325,7 +288,7 @@
     box-sizing: border-box;
     z-index: 0;
 }
-.image-11-icon {
+.image-chat-icon {
     width: 93px;
     position: absolute;
     margin: 0 !important;
@@ -348,16 +311,7 @@
     z-index: 2;
     font-size: 20px;
 }
-.frame-div {
-    width: 1282px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 22px 0px 0px;
-    box-sizing: border-box;
-    position: relative;
-}
+
 .card-grid-content-list {
     width: 1340px;
     height: 672px;
@@ -404,135 +358,7 @@
     box-sizing: border-box;
     gap: 10px;
 }
-.image-3-icon {
-    width: 68px;
-    position: relative;
-    height: 68px;
-    object-fit: cover;
-}
-.image-3-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 10px;
-}
-.icon {
-    width: 24px;
-    position: relative;
-    height: 24px;
-}
-.state-layer5 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-}
-.container {
-    border-radius: 100px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.leading-icon {
-    width: 48px;
-    height: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.supporting-text {
-    position: relative;
-    letter-spacing: 0.5px;
-    line-height: 24px;
-}
-.content {
-    align-self: stretch;
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-.trailing-elements {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-}
-.state-layer4 {
-    align-self: stretch;
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 4px;
-    gap: 4px;
-}
 
-.wishlist1 {
-    flex: 1;
-    position: relative;
-    display: flex;
-    align-items: center;
-    height: 56px;
-}
-
-.user-icon {
-    width: 48px;
-    position: relative;
-    height: 48px;
-    overflow: hidden;
-    flex-shrink: 0;
-}
-.guest {
-    flex: 1;
-    position: relative;
-    display: flex;
-    align-items: center;
-    height: 54px;
-}
-.guest-wrapper {
-    width: 94px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.frame-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 13px;
-    font-size: 25px;
-    color: #fff;
-    font-family: Inter;
-}
-.frame-group {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #383838;
-    width: 1440px;
-    height: 98px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 5px 20px;
-    box-sizing: border-box;
-    gap: 224px;
-    font-size: 16px;
-    color: #49454f;
-    font-family: Roboto;
-}
 .div {
     position: relative;
     background-color: #565656;
