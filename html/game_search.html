@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>게임 검색</title>
+    <link rel="stylesheet" href="../css/game_search.css">
+
+</head>
+
+<body>
+    <header class="top-bar">
+        <div class="logo-div">
+            <img class="logo-img" alt="" src="/images/logo.png">
+        </div>
+        <form class="search-bar" action="https://g.co/kgs/USocRxj" method="POST">
+            <input type="text" class="search-txt_bar" placeholder="게임 이름이나 app id를 입력하세요." />
+            <button class="search_btn">
+                <img class="icon" alt="" src="/images/search.png">
+            </button>
+        </form>
+        <div class="top-bar_label">
+            <div class="wishlist-wrapper">
+                <label id="wishlist">Whishlist</label>
+            </div>
+            <div class="login-wrapper">
+                <label id="login">Login</label>
+            </div>
+        </div>
+    </header>
+    <!-- 정렬 기준 -->
+    <div class="sort-bar">
+        <label for="sort">정렬기준</label>
+        <select id="sort">
+            <option value="relevance">연관성</option>
+            <option value="price">가격</option>
+            <option value="popularity">인기</option>
+        </select>
+    </div>
+
+    <!-- 게임 리스트 -->
+    <div class="game-list">
+        <a href="#" class="card_click">
+            <div class="game-item">
+                <div class="game-details">
+                    <img src="/images/journey1.png" alt="Journey" class="game-image">
+                    <div>
+                        <p class="game-title">Journey</p>
+                        <p class="game-appid">steam_appid: 638230</p>
+                    </div>
+                </div>
+                <div class="game-price">
+                    <button class="icon-button">
+                        <img src="../images/Star.png" class="star-icon">
+                    </button>
+                    <div class="discount-box">
+                        <p class="game-discount">-67%</p>
+                    </div>
+                    <div class="price-box">
+                        <p class="current-price">₩ 5,940</p>
+                        <p class="original-price">₩ 18,000</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="#" class="card_click">
+            <div class="game-item">
+                <div class="game-details">
+                    <img src="/images/journey2.png" alt="Just Cause 4 Reloaded">
+                    <div>
+                        <p class="game-title">Just Cause 4 Reloaded</p>
+                        <p class="game-appid">steam_appid: 1057090</p>
+                    </div>
+                </div>
+                <div class="game-price">
+                    <button class="icon-button">
+                        <img src="/images/Star.png" class="star-icon">
+                    </button>
+                    <div class="discount-box">
+                        <p class="game-discount">-67%</p>
+                    </div>
+                    <div class="price-box">
+                        <p class="current-price">₩ 5,940</p>
+                        <p class="original-price">₩ 18,000</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- ChatBot 버튼 -->
+        <button class="chatbot-button">
+            <img src="/images/chat.png">
+            ChatBot에게 게임 추천받기</button>
+        </button>
+
+        <script src="/js/game_search.js"></script>
+</body>
+
+</html>

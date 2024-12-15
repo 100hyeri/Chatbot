@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #2b2b2b;
+  color: white;
+}
+
+
+/* 검색창 있는 부분 */
+.top-bar_label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  font-size: 25px;
+  color: #fff;
+  font-family: Inter;
+}
+
+.top-bar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #383838;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #49454f;
+  font-family: Roboto;
+  z-index: 1;
+  height: 70px;
+}
+
+#wishlist {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.wishlist-wrapper {
+  width: 103px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#login {
+  flex: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 54px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.login-wrapper {
+  width: 94px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-txt_bar {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4px;
+  gap: 4px;
+  border: none;
+  padding-left: 15px;
+  background-color: transparent;
+  /* 배경을 투명으로 설정 */
+  outline: none;
+  /* 포커스 시 윤곽선 제거 */
+  color: white;
+  /* 글자 색상 */
+}
+
+.search-bar {
+  width: 530px;
+  border-radius: 28px;
+  background-color: rgba(236, 230, 240, 0);
+  border: 2px solid #636363;
+  box-sizing: border-box;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 360px;
+  max-width: 720px;
+  margin-right: 250px;
+}
+
+.logo-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px;
+  width: 58px;
+  height: 58px;
+  margin-right: 10px;
+  margin-right: 400px;
+}
+
+.icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+
+.search_btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.logo-img {
+  width: 58px;
+  position: relative;
+  height: 58px;
+  object-fit: cover;
+}
+
+/* 게임 리스트 */
+.card_click {
+  cursor: pointer;
+  text-decoration: none;
+  /* 링크 스타일 제거 */
+  color: inherit;
+  /* 텍스트 색상 상속 */
+  display: block;
+  /* 블록 요소로 변경 */
+}
+
+.game-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #333333;
+  /* 호버 효과 */
+}
+
+.game-list {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.game-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3a3a3a;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.game-details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.game-details img {
+  width: 120px;
+  height: 80px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.game-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.game-description {
+  font-size: 14px;
+  color: #bbb;
+  margin: 5px 0 0;
+}
+
+.game-meta {
+  text-align: right;
+}
+
+.game-action {
+  font-size: 14px;
+  color: #4caf50;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.game-action:hover {
+  color: #3cb043;
+}
+
+.game-appid {
+  font-size: 12px;
+  color: #bbb;
+}
+
+.game-discount {
+  font-size: 14px;
+  text-align: center;
+  color: #A3FFED;
+  font-weight: bold;
+}
+
+.game-price {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon-button {
+  all: unset;
+}
+
+.discount-box {
+  background-color: #47B997;
+  /* 녹색 배경 */
+  color: white;
+  /* 흰색 글자 */
+  font-weight: bold;
+  padding: 5px 10px;
+  /* 내부 여백 */
+  border-radius: 5px;
+  /* 둥근 모서리 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-box {
+  display: flex;
+  flex-direction: column;
+  /* 가격 정보 세로 정렬 */
+  align-items: flex-start;
+  /* 왼쪽 정렬 */
+  margin-right: 40px;
+  line-height: 10px;
+}
+
+.current-price {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  margin-block-start: 0;
+}
+
+.original-price {
+  font-size: 12px;
+  color: #bbb;
+  text-decoration: line-through;
+  margin: 0;
+}
+
+.star-icon {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 15px;
+  height: 15px;
+}
+
+/* 정렬 기준 */
+.sort-bar {
+  margin: 20px auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.sort-bar select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.chatbot-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #898989;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.chatbot-button:hover {
+  border-radius: 10px;
+  background: #898989;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

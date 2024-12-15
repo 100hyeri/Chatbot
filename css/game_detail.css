@@ -139,9 +139,7 @@
 }
 
 
-
-
-.div1 {
+.language {
     width: 113px;
     position: relative;
     display: flex;
@@ -150,7 +148,7 @@
     height: 129px;
     flex-shrink: 0;
 }
-.div2 {
+.language-content {
     width: 613px;
     position: relative;
     color: #989797;
@@ -160,7 +158,7 @@
     height: 109px;
     flex-shrink: 0;
 }
-.parent {
+.footer-parent {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -168,7 +166,7 @@
     gap: 81px;
     color: #989797;
 }
-.inner {
+.footer {
     position: absolute;
     top: 1620px;
     left: 0px;
@@ -186,13 +184,13 @@
     text-align: center;
 }
 
-.navigate-next-icon {
+.previous-button {
     width: 62px;
     position: relative;
     height: 62px;
     object-fit: contain;
 }
-.div3 {
+.play-time {
     width: 127px;
     position: relative;
     letter-spacing: -0.02em;
@@ -202,7 +200,7 @@
     height: 15px;
     flex-shrink: 0;
 }
-.div4 {
+.game-buy-txt {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -213,13 +211,13 @@
     width: 94px;
     height: 15px;
 }
-.wrapper {
+.game-buy-div {
     width: 90px;
     position: relative;
     background-color: #cfcfcf;
     height: 15px;
 }
-.group {
+.play-info-group {
     width: 391px;
     height: 15px;
     display: flex;
@@ -229,7 +227,7 @@
     padding: 0px 10px 0px 15px;
     box-sizing: border-box;
 }
-.image-icon {
+.profile-image-icon {
     align-self: stretch;
     position: relative;
     border-radius: 50%;
@@ -239,7 +237,7 @@
     flex-shrink: 0;
     object-fit: cover;
 }
-.image-wrapper {
+.profile-image-wrapper {
     width: 71px;
     display: flex;
     flex-direction: column;
@@ -248,7 +246,7 @@
     padding: 10px;
     box-sizing: border-box;
 }
-.div5 {
+.user-name {
     align-self: stretch;
     position: relative;
     letter-spacing: -0.02em;
@@ -258,7 +256,7 @@
     height: 20px;
     flex-shrink: 0;
 }
-.steam-id-342353252 {
+.steam-id {
     align-self: stretch;
     position: relative;
     font-size: 13px;
@@ -270,7 +268,7 @@
     height: 17px;
     flex-shrink: 0;
 }
-.container {
+.user-info {
     width: 247px;
     display: flex;
     flex-direction: column;
@@ -278,20 +276,20 @@
     justify-content: center;
     gap: 5px;
 }
-.icon-thumb-up {
+.review-icon {
     width: 57.9px;
     position: relative;
     height: 49px;
     
 }
-.frame-container {
+.profile-frame-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
     font-size: 20px;
 }
-.frame-group {
+.review-frame-group {
     align-self: stretch;
     overflow: hidden;
     display: flex;
@@ -303,11 +301,8 @@
     padding: 8px 0px;
     gap: 0px;
 }
-.ps4-pc {
-    margin: 0;
-    font-size: medium;
-}
-.ps4-pc-container {
+
+.review-content {
     width: 342px;
     position: relative;
     letter-spacing: -0.02em;
@@ -316,7 +311,12 @@
     display: inline-block;
     overflow: hidden;
 }
-.div6 {
+
+.review-content p {
+    margin: 0;
+}
+
+.content-detail_btn {
     width: 65px;
     position: relative;
     font-size: 11px;
@@ -330,7 +330,7 @@
     flex-shrink: 0;
     cursor: pointer;
 }
-.ps4-pc-parent {
+.review-content-div {
     align-self: stretch;
     border-top: 1px dashed #919191;
     box-sizing: border-box;
@@ -344,7 +344,7 @@
     padding: 14px 18px;
     gap: 10px;
 }
-.frame-parent {
+.review-frame-parent {
     width: 391px;
     border-radius: 20px;
     background-color: #fff;
@@ -372,56 +372,7 @@
     transform: translateY(-5px);
 }
 
-
-.frame {
-    width: 391px;
-    height: 14px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 0px 0px 15px;
-    box-sizing: border-box;
-}
-.frame-parent2 {
-    width: 391px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 20px;
-}
-.wrapper1 {
-    align-self: stretch;
-    border-top: 1px dashed #919191;
-    box-sizing: border-box;
-    height: 124px;
-    overflow: hidden;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 14px 18px;
-}
-.div11 {
-    flex: 1;
-    position: relative;
-    letter-spacing: -0.02em;
-    line-height: 120%;
-    font-weight: 500;
-    display: inline-block;
-    height: 15px;
-}
-.wrapper2 {
-    width: 90px;
-    background-color: #cecece;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.navigate-next-icon1 {
+.next-button {
     width: 62px;
     position: relative;
     height: 62px;
@@ -448,13 +399,14 @@
     cursor: pointer;
 }
 
-.text-heading1 {
+.reviews-text {
     position: relative;
     letter-spacing: -0.02em;
     line-height: 120%;
     font-weight: 600;
 }
-.text-heading {
+
+.review-text-heading {
     flex: 1;
     display: flex;
     flex-direction: row;
@@ -462,7 +414,8 @@
     justify-content: center;
     padding: 0px 0px 0px 20px;
 }
-.text-heading-wrapper {
+
+.review-text-heading-wrapper {
     position: absolute;
     top: 78px;
     left: 39px;
@@ -494,7 +447,7 @@
     padding: 0px 10px 0px 0px;
     box-sizing: border-box;
 }
-.wrapper3 {
+.score-div {
     width: 77px;
     border-left: 1px solid #575757;
     box-sizing: border-box;
@@ -506,7 +459,7 @@
     text-align: left;
     color: #78ffe4;
 }
-.frame-parent6 {
+.metacritic-score-frame {
     align-self: stretch;
     background-color: #474747;
     height: 63px;
@@ -517,7 +470,7 @@
     align-items: center;
     justify-content: flex-start;
 }
-.frame-wrapper {
+.metacritic-frame-wrapper {
     width: 218px;
     background-color: #666;
     height: 70px;
@@ -526,7 +479,7 @@
     align-items: center;
     justify-content: center;
 }
-.parent5 {
+.metacritic-div {
     position: absolute;
     top: 41px;
     left: 1071px;
@@ -539,6 +492,11 @@
     text-align: right;
     font-size: 20px;
 }
+
+.metacritic-div p {
+    margin-block-start: 0;
+}
+
 .card-grid-reviews {
     position: absolute;
     top: 652px;
@@ -546,7 +504,7 @@
     width: 1440px;
     height: 437px;
 }
-.image-icon3 {
+.screenshots-img {
     width: 338px;
     position: relative;
     height: 201px;
@@ -556,12 +514,12 @@
     cursor: pointer;
 }
 
-.image-icon3:hover {
+.screenshots-img:hover {
     transform: scale(1.1); /* 마우스를 올리면 10% 커짐 */
 }
 
 
-.navigate-next-parent {
+.screenshots {
     position: absolute;
     top: 93px;
     left: 0px;
@@ -576,13 +534,13 @@
     gap: 26px;
 }
 
-.navigate-next-parent button {
+.screenshots button {
     all: unset;
     cursor: pointer;
 }
 
 
-.screenshots {
+.screenshots-label {
     position: relative;
 }
 .screenshots-wrapper {
@@ -595,7 +553,7 @@
     justify-content: center;
     padding: 10px;
 }
-.frame-parent7 {
+.screenshots-div {
     position: absolute;
     top: 321px;
     left: 0px;
@@ -605,12 +563,12 @@
     text-align: center;
     font-size: 24px;
 }
-.journey1 {
+.game_title {
     align-self: stretch;
     position: relative;
     z-index: 0;
 }
-.steam-appid-638230 {
+.steam-appid {
     width: 202px;
     position: relative;
     font-size: 16px;
@@ -620,13 +578,13 @@
     justify-content: center;
     z-index: 1;
 }
-.label-text {
+.genre-label-text {
     position: relative;
     letter-spacing: 0.1px;
     line-height: 20px;
     font-weight: 500;
 }
-.state-layer {
+.genre-div {
     height: 32px;
     display: flex;
     flex-direction: row;
@@ -635,7 +593,7 @@
     padding: 6px 16px;
     box-sizing: border-box;
 }
-.assistive-chip {
+.genre-chip {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -648,7 +606,7 @@
     align-items: center;
     justify-content: center;
 }
-.assistive-chip-wrapper {
+.genre-chip-wrapper {
     width: 200px;
     position: absolute;
     margin: 0 !important;
@@ -660,7 +618,7 @@
     color: #1d1b20;
     font-family: Roboto;
 }
-.journey-parent {
+.title-text {
     position: absolute;
     top: 74px;
     left: 564px;
@@ -674,11 +632,11 @@
     gap: 10px;
     text-align: center;
 }
-.div17 {
+.date_txt {
     position: relative;
     font-weight: 500;
 }
-.wrapper4 {
+.Date_div {
     position: absolute;
     top: 10px;
     left: 637px;
@@ -691,14 +649,14 @@
     font-size: 14px;
     color: #d7d7d7;
 }
-.journey2 {
+.game-content_txt {
     width: 695px;
     position: relative;
     display: flex;
     align-items: center;
     flex-shrink: 0;
 }
-.journey-wrapper {
+.game-content {
     position: absolute;
     top: 174px;
     left: 328px;
@@ -727,7 +685,7 @@
     box-sizing: border-box;
     z-index: 0;
 }
-.image-11-icon {
+.chat_img {
     width: 93px;
     position: absolute;
     margin: 0 !important;
@@ -737,7 +695,7 @@
     object-fit: cover;
     z-index: 1;
 }
-.frame-parent9 {
+.chat_button {
     position: absolute;
     top: 65px;
     left: 89px;
@@ -748,14 +706,14 @@
     justify-content: flex-start;
     font-size: 20px;
 }
-.b {
+.discount-price-txt {
     align-self: stretch;
     position: relative;
     align-items: center;
     height: 38px;
     flex-shrink: 0;
 }
-.b1 {
+.price-txt {
     align-self: stretch;
     position: relative;
     text-decoration: line-through;
@@ -764,18 +722,18 @@
     height: 47px;
     flex-shrink: 0;
 }
-.parent6 {
+.price {
     align-self: stretch;
     z-index: 0;
     text-align: right;
 }
-.button1 {
+.wish-button_txt {
     position: relative;
     line-height: 100%;
     /* 모든 기본 스타일 제거 */
     all: unset;
 }
-.button {
+.wish-button {
     align-self: stretch;
     border-radius: 8px;
     background-color: #78ffe4;
@@ -794,13 +752,13 @@
     cursor: pointer;
 }
 
-.button:hover {
+.wish-button:hover {
     background-color: white;
     /* 마우스를 올렸을 때 배경색 */
     transform: translateY(-5px);
 }
 
-.b2 {
+.discount-txt {
     width: 199px;
     position: relative;
     display: flex;
@@ -808,7 +766,7 @@
     height: 38px;
     flex-shrink: 0;
 }
-.wrapper5 {
+.discount {
     width: 208px;
     margin: 0 !important;
     position: absolute;
@@ -821,7 +779,7 @@
     z-index: 2;
     color: #78ffe4;
 }
-.frame-parent10 {
+.price-div {
     position: absolute;
     top: 27px;
     left: 1128px;
@@ -838,7 +796,7 @@
     gap: 20px;
     font-size: 32px;
 }
-.frame-parent8 {
+.game_info {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -846,7 +804,7 @@
     height: 321px;
     font-size: 36px;
 }
-.card-grid-reviews-parent {
+.content {
     position: absolute;
     top: 495px;
     left: 0px;
@@ -880,7 +838,7 @@
     justify-content: center;
     z-index: 0;
 }
-.image-icon6 {
+.game_img {
     width: 745px;
     margin: 0 !important;
     position: absolute;
@@ -890,7 +848,7 @@
     object-fit: cover;
     z-index: 1;
 }
-.frame-parent11 {
+.etc-info_frame {
     position: absolute;
     top: 98px;
     left: 0px;
@@ -905,66 +863,9 @@
     box-sizing: border-box;
     gap: 10px;
 }
-.image-3-icon {
-    width: 68px;
-    position: relative;
-    height: 68px;
-    object-fit: cover;
-}
-.image-3-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 10px;
-}
-.icon {
-    width: 24px;
-    position: relative;
-    height: 24px;
-}
-.state-layer2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 8px;
-}
-.container1 {
-    border-radius: 100px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.leading-icon {
-    width: 48px;
-    height: 48px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.supporting-text {
-    position: relative;
-    letter-spacing: 0.5px;
-    line-height: 24px;
-}
-.content {
-    align-self: stretch;
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-.trailing-elements {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-}
+
+
+
 .state-layer1 {
     align-self: stretch;
     flex: 1;
@@ -977,41 +878,6 @@
 }
 
 
-
-.frame-parent13 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 32px;
-    font-size: 25px;
-    color: #fff;
-    font-family: Inter;
-}
-.icon-game-controller-outline {
-    width: 71px;
-    position: relative;
-    height: 49px;
-}
-.frame-parent12 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    background-color: #383838;
-    width: 1440px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 5px 20px;
-    box-sizing: border-box;
-    gap: 243px;
-    text-align: left;
-    font-size: 16px;
-    color: #49454f;
-    font-family: Roboto;
-}
 .div {
     width: 100%;
     position: relative;
@@ -1037,4 +903,9 @@
     float: left;
     display: block;
     background-color: #393939;
+}
+
+.ps4-pc {
+    font-size: medium;
+    line-height: 80%;
 }
