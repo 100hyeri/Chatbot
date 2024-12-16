@@ -147,7 +147,9 @@
     justify-content: center;
     height: 129px;
     flex-shrink: 0;
+    font-size: small;
 }
+
 .language-content {
     width: 613px;
     position: relative;
@@ -157,7 +159,9 @@
     justify-content: center;
     height: 109px;
     flex-shrink: 0;
+    font-size: small;
 }
+
 .footer-parent {
     display: flex;
     flex-direction: row;
@@ -166,9 +170,10 @@
     gap: 81px;
     color: #989797;
 }
+
 .footer {
     position: absolute;
-    top: 1620px;
+    top: 1150px;
     left: 0px;
     border-top: 1px solid #9a9a9a;
     box-sizing: border-box;
@@ -179,7 +184,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 19px 298px;
+    padding: 19px 350px;
     color: #b8b6b6;
     text-align: center;
 }
@@ -190,6 +195,7 @@
     height: 62px;
     object-fit: contain;
 }
+
 .play-time {
     width: 127px;
     position: relative;
@@ -200,6 +206,7 @@
     height: 15px;
     flex-shrink: 0;
 }
+
 .game-buy-txt {
     position: absolute;
     top: 0px;
@@ -211,12 +218,14 @@
     width: 94px;
     height: 15px;
 }
+
 .game-buy-div {
     width: 90px;
     position: relative;
     background-color: #cfcfcf;
     height: 15px;
 }
+
 .play-info-group {
     width: 391px;
     height: 15px;
@@ -227,6 +236,7 @@
     padding: 0px 10px 0px 15px;
     box-sizing: border-box;
 }
+
 .profile-image-icon {
     align-self: stretch;
     position: relative;
@@ -237,6 +247,7 @@
     flex-shrink: 0;
     object-fit: cover;
 }
+
 .profile-image-wrapper {
     width: 71px;
     display: flex;
@@ -246,6 +257,7 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
 .user-name {
     align-self: stretch;
     position: relative;
@@ -256,6 +268,7 @@
     height: 20px;
     flex-shrink: 0;
 }
+
 .steam-id {
     align-self: stretch;
     position: relative;
@@ -268,6 +281,7 @@
     height: 17px;
     flex-shrink: 0;
 }
+
 .user-info {
     width: 247px;
     display: flex;
@@ -276,12 +290,14 @@
     justify-content: center;
     gap: 5px;
 }
+
 .review-icon {
     width: 57.9px;
     position: relative;
     height: 49px;
-    
+
 }
+
 .profile-frame-container {
     display: flex;
     flex-direction: row;
@@ -289,6 +305,7 @@
     justify-content: flex-start;
     font-size: 20px;
 }
+
 .review-frame-group {
     align-self: stretch;
     overflow: hidden;
@@ -330,6 +347,7 @@
     flex-shrink: 0;
     cursor: pointer;
 }
+
 .review-content-div {
     align-self: stretch;
     border-top: 1px dashed #919191;
@@ -344,6 +362,7 @@
     padding: 14px 18px;
     gap: 10px;
 }
+
 .review-frame-parent {
     width: 391px;
     border-radius: 20px;
@@ -377,6 +396,7 @@
     position: relative;
     height: 62px;
 }
+
 .card-grid {
     position: absolute;
     top: 128px;
@@ -428,6 +448,7 @@
     box-sizing: border-box;
     font-size: 24px;
 }
+
 .metacritic-score {
     flex: 1;
     position: relative;
@@ -437,6 +458,7 @@
     display: inline-block;
     height: 58px;
 }
+
 .metacritic-score-wrapper {
     width: 141px;
     height: 100px;
@@ -447,6 +469,7 @@
     padding: 0px 10px 0px 0px;
     box-sizing: border-box;
 }
+
 .score-div {
     width: 77px;
     border-left: 1px solid #575757;
@@ -459,6 +482,7 @@
     text-align: left;
     color: #78ffe4;
 }
+
 .metacritic-score-frame {
     align-self: stretch;
     background-color: #474747;
@@ -470,6 +494,7 @@
     align-items: center;
     justify-content: flex-start;
 }
+
 .metacritic-frame-wrapper {
     width: 218px;
     background-color: #666;
@@ -479,6 +504,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .metacritic-div {
     position: absolute;
     top: 41px;
@@ -504,6 +530,7 @@
     width: 1440px;
     height: 437px;
 }
+
 .screenshots-img {
     width: 338px;
     position: relative;
@@ -515,7 +542,8 @@
 }
 
 .screenshots-img:hover {
-    transform: scale(1.1); /* 마우스를 올리면 10% 커짐 */
+    transform: scale(1.1);
+    /* 마우스를 올리면 10% 커짐 */
 }
 
 
@@ -543,6 +571,7 @@
 .screenshots-label {
     position: relative;
 }
+
 .screenshots-wrapper {
     position: absolute;
     top: 29px;
@@ -553,6 +582,7 @@
     justify-content: center;
     padding: 10px;
 }
+
 .screenshots-div {
     position: absolute;
     top: 321px;
@@ -563,11 +593,13 @@
     text-align: center;
     font-size: 24px;
 }
+
 .game_title {
     align-self: stretch;
     position: relative;
     z-index: 0;
 }
+
 .steam-appid {
     width: 202px;
     position: relative;
@@ -578,12 +610,14 @@
     justify-content: center;
     z-index: 1;
 }
+
 .genre-label-text {
     position: relative;
     letter-spacing: 0.1px;
     line-height: 20px;
     font-weight: 500;
 }
+
 .genre-div {
     height: 32px;
     display: flex;
@@ -593,6 +627,7 @@
     padding: 6px 16px;
     box-sizing: border-box;
 }
+
 .genre-chip {
     position: absolute;
     top: 0px;
@@ -606,6 +641,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .genre-chip-wrapper {
     width: 200px;
     position: absolute;
@@ -618,6 +654,7 @@
     color: #1d1b20;
     font-family: Roboto;
 }
+
 .title-text {
     position: absolute;
     top: 74px;
@@ -632,10 +669,12 @@
     gap: 10px;
     text-align: center;
 }
+
 .date_txt {
     position: relative;
     font-weight: 500;
 }
+
 .Date_div {
     position: absolute;
     top: 10px;
@@ -649,6 +688,7 @@
     font-size: 14px;
     color: #d7d7d7;
 }
+
 .game-content_txt {
     width: 695px;
     position: relative;
@@ -656,6 +696,7 @@
     align-items: center;
     flex-shrink: 0;
 }
+
 .game-content {
     position: absolute;
     top: 174px;
@@ -667,45 +708,46 @@
     padding: 10px 45px;
     font-size: 16px;
 }
+
 .chatbot {
     position: relative;
     font-weight: 600;
 }
-.chatbot-wrapper {
-    width: 283px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    background-color: #898989;
-    height: 46px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    box-sizing: border-box;
-    z-index: 0;
-}
-.chat_img {
+
+.image-chat-icon {
     width: 93px;
     position: absolute;
     margin: 0 !important;
     top: -46px;
-    left: -57px;
+    left: -50px;
     height: 92px;
     object-fit: cover;
     z-index: 1;
 }
-.chat_button {
-    position: absolute;
-    top: 65px;
-    left: 89px;
-    height: 60px;
+
+.chat-button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #898989;
+    height: 46px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    font-size: 20px;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
 }
+
+.chat-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
 .discount-price-txt {
     align-self: stretch;
     position: relative;
@@ -713,6 +755,7 @@
     height: 38px;
     flex-shrink: 0;
 }
+
 .price-txt {
     align-self: stretch;
     position: relative;
@@ -722,17 +765,20 @@
     height: 47px;
     flex-shrink: 0;
 }
+
 .price {
     align-self: stretch;
     z-index: 0;
     text-align: right;
 }
+
 .wish-button_txt {
     position: relative;
     line-height: 100%;
     /* 모든 기본 스타일 제거 */
     all: unset;
 }
+
 .wish-button {
     align-self: stretch;
     border-radius: 8px;
@@ -766,6 +812,7 @@
     height: 38px;
     flex-shrink: 0;
 }
+
 .discount {
     width: 208px;
     margin: 0 !important;
@@ -779,6 +826,7 @@
     z-index: 2;
     color: #78ffe4;
 }
+
 .price-div {
     position: absolute;
     top: 27px;
@@ -796,6 +844,7 @@
     gap: 20px;
     font-size: 32px;
 }
+
 .game_info {
     position: absolute;
     top: 0px;
@@ -804,6 +853,7 @@
     height: 321px;
     font-size: 36px;
 }
+
 .content {
     position: absolute;
     top: 495px;
@@ -815,6 +865,7 @@
     text-align: left;
     font-size: 13px;
 }
+
 .remote-play-container {
     align-self: stretch;
     position: relative;
@@ -838,6 +889,7 @@
     justify-content: center;
     z-index: 0;
 }
+
 .game_img {
     width: 745px;
     margin: 0 !important;
@@ -848,6 +900,7 @@
     object-fit: cover;
     z-index: 1;
 }
+
 .etc-info_frame {
     position: absolute;
     top: 98px;
@@ -881,12 +934,12 @@
 .div {
     width: 100%;
     position: relative;
-    height: 1722px;
+    height: 1000px;
     text-align: center;
     font-size: 20px;
     color: #fff;
     font-family: Inter;
-    transform: scale(0.9);
+    transform: scale(0.7);
     /* 크기를 축소 */
     transform-origin: top center;
     /* 축소 기준점을 왼쪽 위로 설정 */
@@ -898,8 +951,8 @@
 .div-back {
     width: 100%;
     position: absolute;
-    top: 445px;
-    height: 185%;    
+    top: 346px;
+    height: 130%;
     float: left;
     display: block;
     background-color: #393939;

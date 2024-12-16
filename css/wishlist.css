@@ -269,49 +269,6 @@
 }
 
 
-.chatbot {
-    position: relative;
-    font-weight: 600;
-}
-
-.chatbot-wrapper {
-    width: 283px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    background-color: #898989;
-    height: 46px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    box-sizing: border-box;
-    z-index: 0;
-}
-.image-chat-icon {
-    width: 93px;
-    position: absolute;
-    margin: 0 !important;
-    top: -46px;
-    left: -57px;
-    height: 92px;
-    object-fit: cover;
-    z-index: 1;
-}
-.chat-button {
-    margin: 0 !important;
-    position: absolute;
-    top: 86px;
-    left: 1042px;
-    height: 60px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    z-index: 2;
-    font-size: 20px;
-}
-
 .card-grid-content-list {
     width: 1340px;
     height: 672px;
@@ -362,13 +319,12 @@
 .div {
     position: relative;
     background-color: #565656;
-    height: 170vh;
-    overflow: hidden;
+    height: 1000px;
     text-align: left;
     font-size: 20px;
     color: white;
     font-family: Inter;
-    transform: scale(0.9);
+    transform: scale(0.7);
     /* 크기를 축소 */
     transform-origin: top center;
     /* 축소 기준점을 왼쪽 위로 설정 */
@@ -376,5 +332,45 @@
     /* 축소로 인해 컨텐츠가 잘리는 것을 방지 */
     margin-left: 50px;
     
+}
+
+
+.chatbot {
+    position: relative;
+    font-weight: 600;
+}
+
+.image-chat-icon {
+    width: 93px;
+    position: absolute;
+    margin: 0 !important;
+    top: -46px;
+    left: -50px;
+    height: 92px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.chat-button {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #898989;
+    height: 46px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+}
+
+.chat-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
 }
 
