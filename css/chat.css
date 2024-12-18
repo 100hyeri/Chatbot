@@ -1,66 +1,56 @@
-.value {
+.chat_logo {
+    width: 53px;
+    position: relative;
+    height: 37px;
+}
+.chatbot-title {
     flex: 1;
     position: relative;
-    line-height: 100%;
+    line-height: 106%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 63px;
+    font-size: large;
 }
-.search {
-    width: 768px;
-    border-radius: 9999px;
-    background-color: #fff;
-    border: 1px solid #d9d9d9;
-    box-sizing: border-box;
-    height: 59px;
+.chatbot-title-wrapper {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: absolute;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #666;
+    width: 100%;
+    height: 70px;
     overflow: hidden;
-    flex-shrink: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 12px 16px;
-}
-.send-icon {
-    width: 38px;
-    position: relative;
-    height: 38px;
-    overflow: hidden;
-    flex-shrink: 0;
-}
-.search-parent {
-    position: absolute;
-    top: 920px;
-    left: 0px;
-    background-color: #b2b2b2;
-    width: 1440px;
-    height: 104px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 16px 149px;
+    padding: 25px 30px;
     box-sizing: border-box;
-    gap: 15px;
+    gap: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    z-index: 1;
 }
-.frame-child {
-    width: 595px;
+
+.line {
+    width: 570px;
     position: relative;
     height: 1px;
     object-fit: contain;
 }
-.b {
-    position: relative;
-    line-height: 100%;
-}
-.wrapper {
-    width: 106px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    box-sizing: border-box;
-}
-.line-parent {
+
+.date-div {
     width: 1306px;
     height: 40px;
     display: flex;
@@ -68,7 +58,9 @@
     align-items: center;
     justify-content: flex-start;
     gap: 5px;
+    font-size: medium;
 }
+
 .chatbot {
     flex: 1;
     position: relative;
@@ -78,7 +70,7 @@
     justify-content: center;
     height: 70px;
 }
-.chatbot-wrapper {
+.name-wrapper {
     width: 183px;
     display: flex;
     flex-direction: row;
@@ -88,13 +80,14 @@
 .p {
     margin: 0;
 }
-.p1 {
+.txt {
     margin: 0;
     font-weight: 500;
+    line-height: 120%;
 }
-.container {
+.chat-txt-container {
     width: 617px;
-    border-left: 1px solid #000;
+    border-left: 4px solid #55dabb;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -103,7 +96,20 @@
     padding: 0px 20px;
     text-align: left;
 }
-.frame-container {
+
+.user-txt-container {
+    width: 617px;
+    border-left: 4px solid #161616;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 20px;
+    text-align: left;
+}
+
+.talk-container {
     width: 1440px;
     height: 123px;
     display: flex;
@@ -113,6 +119,7 @@
     padding: 0px 15px;
     box-sizing: border-box;
     gap: 28px;
+    font-size: medium;
 }
 .div2 {
     align-self: stretch;
@@ -131,29 +138,28 @@
     font-size: inherit;
     padding-left: 27px;
 }
-.journey-ori-and-container {
+.txt-div {
     align-self: stretch;
     position: relative;
     line-height: 108%;
 }
-.frame-group {
+.contents {
     align-self: stretch;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    padding: 38px 282px;
-    gap: 15px;
     text-align: center;
     color: #000;
 }
+
 .frame-parent {
     position: absolute;
-    top: 113px;
+    top: 70px;
     left: 0px;
     background-color: #e5e5e5;
-    width: 1440px;
+    width: 100%;
     height: 807px;
     overflow: hidden;
     display: flex;
@@ -165,56 +171,70 @@
     font-size: 20px;
     color: #252525;
 }
-.icon-game-controller-outline {
-    width: 63px;
-    position: relative;
-    height: 47px;
-}
-.chatbot3 {
-    flex: 1;
-    position: relative;
-    line-height: 106%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 63px;
-}
-.chatbot-wrapper1 {
-    width: 328px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.icon-game-controller-outline-parent {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: #666;
-    width: 1440px;
+
+
+
+.input-form {
+    width: 768px;
+    border-radius: 9999px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    height: 45px;
     overflow: hidden;
+    flex-shrink: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    padding: 25px 30px;
-    box-sizing: border-box;
-    gap: 10px;
-    text-align: center;
-    font-size: 24px;
-    color: #fff;
+    padding: 12px 16px;
 }
-.div {
-    width: 100%;
+.send-icon {
+    width: 30px;
     position: relative;
-    background-color: #fff;
-    border: 1px solid #000;
-    box-sizing: border-box;
-    height: 1024px;
-    overflow: hidden;
-    text-align: left;
-    font-size: 16px;
-    color: #b3b3b3;
-    font-family: Inter;
+    height: 30px;
+    flex-shrink: 0;
 }
 
+.input-div {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #b2b2b2;
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 149px;
+    box-sizing: border-box;
+    gap: 15px;
+    z-index: 1;
+}
+
+.input-div input {
+    all: unset;
+    color: #000;
+    width: 768px;
+}
+
+.input-div button {
+    all: unset;
+    cursor: pointer;
+    position: absolute;
+    left: 1150px;
+    margin-top: 5px;
+}
+
+.game-list {
+    padding-left: 20px;
+    line-height: 120%;
+    margin: 0;
+}
+
+.game-list li a {
+    cursor: pointer;
+    color: black;
+}

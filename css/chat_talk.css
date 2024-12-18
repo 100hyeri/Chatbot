@@ -70,6 +70,7 @@
     align-items: center;
     justify-content: flex-start;
     gap: 5px;
+    font-size: medium;
 }
 
 .txt {
@@ -241,7 +242,6 @@
     justify-content: flex-start;
     padding: 15px 0px 0px;
     box-sizing: border-box;
-    font-size: 20px;
     color: #252525;
 }
 .chat_logo {
