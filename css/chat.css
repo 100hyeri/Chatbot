@@ -53,20 +53,13 @@ header {
     z-index: 1;
 }
 
-.line {
-    width: 570px;
-    position: relative;
-    height: 1px;
-    object-fit: contain;
-}
-
 .date-div {
-    width: 1306px;
+    width: 100%;
     height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 5px;
     font-size: medium;
 }
@@ -159,7 +152,6 @@ header {
     background-color: #e5e5e5;
     width: 100%;
     height: 570px;
-    overflow: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -239,4 +231,12 @@ header {
 .game-list li a {
     cursor: pointer;
     color: black;
+}
+
+.test {
+    width: 850px;
+    height: 470px;
+    background-color: white;
+    overflow: auto;
+    overflow-x: hidden; /* 가로 스크롤 숨기기 */
 }
