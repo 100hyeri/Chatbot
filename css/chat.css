@@ -77,14 +77,13 @@ header {
     align-items: center;
     justify-content: center;
 }
-.p {
-    margin: 0;
-}
+
 .txt {
     margin: 0;
     font-weight: 500;
     line-height: 120%;
 }
+
 .chat-txt-container {
     width: 617px;
     border-left: 4px solid #55dabb;
@@ -121,23 +120,7 @@ header {
     gap: 28px;
     font-size: medium;
 }
-.div2 {
-    align-self: stretch;
-    position: relative;
-    line-height: 108%;
-    font-weight: 500;
-}
-.journey {
-    margin-bottom: 0px;
-}
-.ori-and-forest {
-    font-weight: 500;
-}
-.journey-ori-and-forest {
-    margin: 0;
-    font-size: inherit;
-    padding-left: 27px;
-}
+
 .txt-div {
     align-self: stretch;
     position: relative;
@@ -172,8 +155,6 @@ header {
     color: #252525;
 }
 
-
-
 .input-form {
     width: 768px;
     border-radius: 9999px;
@@ -189,6 +170,7 @@ header {
     justify-content: flex-start;
     padding: 12px 16px;
 }
+
 .send-icon {
     width: 30px;
     position: relative;
