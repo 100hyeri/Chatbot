@@ -1,8 +1,17 @@
+html,
+body {
+    height: 100%;
+    /* 페이지 높이를 100%로 고정 */
+    overflow: hidden;
+    /* 페이지 스크롤 제거 */
+}
+
 .chat_logo {
     width: 53px;
     position: relative;
     height: 37px;
 }
+
 .chatbot-title {
     flex: 1;
     position: relative;
@@ -13,6 +22,7 @@
     height: 63px;
     font-size: large;
 }
+
 .chatbot-title-wrapper {
     width: 250px;
     display: flex;
@@ -70,6 +80,7 @@ header {
     justify-content: center;
     height: 70px;
 }
+
 .name-wrapper {
     width: 183px;
     display: flex;
@@ -110,7 +121,7 @@ header {
 
 .talk-container {
     width: 1440px;
-    height: 123px;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -125,16 +136,20 @@ header {
     align-self: stretch;
     position: relative;
     line-height: 108%;
+    transform-origin: top;
+    word-wrap: break-word; /* 긴 단어 줄바꿈 */
 }
+
 .contents {
     align-self: stretch;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
     color: #000;
+    gap: 30px;
+    margin-top: 30px;
 }
 
 .frame-parent {
@@ -143,8 +158,8 @@ header {
     left: 0px;
     background-color: #e5e5e5;
     width: 100%;
-    height: 807px;
-    overflow: hidden;
+    height: 570px;
+    overflow: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,6 +169,11 @@ header {
     font-size: 20px;
     color: #252525;
 }
+
+.empty-space {
+    height: 50px;
+}
+
 
 .input-form {
     width: 768px;
@@ -206,7 +226,7 @@ header {
     all: unset;
     cursor: pointer;
     position: absolute;
-    left: 1150px;
+    left: 1160px;
     margin-top: 5px;
 }
 
