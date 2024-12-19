@@ -548,7 +548,7 @@
 
 
 .screenshots {
-    position: absolute;
+    position: relative;
     top: 93px;
     left: 0px;
     width: 1440px;
@@ -849,8 +849,9 @@
     top: 0px;
     left: 0px;
     width: 1440px;
-    height: 321px;
+    height: auto;
     font-size: 36px;
+    display: inline-block;
 }
 
 .content {
